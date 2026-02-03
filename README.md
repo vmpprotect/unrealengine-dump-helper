@@ -47,5 +47,5 @@
 [+] StaticFindObject Offset: 0x20a0e4c
 [+] Found function containg STLO: sub_2D16A2C at 0x2d16a2c
 [+] StaticLoadObject Address: 0x2e555e4
-[vmp-fn] Plugin terminated
+[vmp-ue] Plugin terminated
 ```

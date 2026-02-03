@@ -1,4 +1,4 @@
-# fortnite-dump-helper
+# unrealengine-dump-helper
 
 ---
 
@@ -37,10 +37,10 @@
 ## Output Example
 
 ```
-[vmp-fn] Plugin run
-[vmp-fn] Starting to find functions
-[vmp-fn] Analyzing all functions...
-[DEBUG] ++Fortnite+Release-33.11-CL-38773622-Windows
+[vmp-ue] Plugin run
+[vmp-ue] Starting to find functions
+[vmp-ue] Analyzing all functions...
+
 [+] Found FMemory::Malloc : sub_2037C10 at 0x2037c10
 [+] FMemory::Malloc Offset: 0x2037c10
 [+] Found StaticFindObject : sub_20A0E4C at 0x20a0e4c

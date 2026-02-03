@@ -29,12 +29,12 @@ class FindFunctionsPlugin(idaapi.plugin_t):
         self.find_functions()
 
     def term(self):
-        print("[vmp-fn] Plugin terminated")
+        print("[vmp-ue] Plugin terminated")
 
     def find_functions(self):
-        print("[vmp-fn] Starting to find functions")
+        print("[vmp-ue] Starting to find functions")
         
-        print("[vmp-fn] Analyzing all functions...")
+        print("[vmp-ue] Analyzing all functions...")
         for seg in idautils.Segments():
             start = idc.get_segm_start(seg)
             end = idc.get_segm_end(seg)
